@@ -1,0 +1,17 @@
+lengh = {
+    "mm": 0.001,
+    "cm": 0.01,
+    "m": 1.0,
+    "km": 1000.0,
+}
+
+mass = {
+    "g": 1.0,
+    "kg": 1000.0,
+}
+
+temperature = {"c", "f", "k"}
+
+absolute_zero_c = -273.15
+
+all_units = set(lengh) | set(mass) | set(temperature)
