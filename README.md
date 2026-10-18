@@ -93,7 +93,7 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 - git clone https://github.com/dora0xx/lab_1_python.git
-- cd lab_1
+- cd lab_1_python
 - uv sync
 - source .venv/bin/activate
 
